@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(194, 186, 186);
+    background:url(and.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.box{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+}
+
+
+.box input[type=text]{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+
+}
+.box input[type=Email]{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+
+
+}
+.box input[type=Password]{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+
+
+}
+.box input[type=submit]{
+    margin: 20px;
+    padding: 10px;
+    width: 190px;
+    background: #180bd7;
+    border-radius: 10px;
+    border: none;
+    color:white;
+
+
+}
+.box label[for=anas]{
+    text-align:left;
+    margin-top: 20px;
+    color: white;
+}
+label{
+    color: white;
+}
+p a{
+text-decoration: none;
+}
+p a:hover{
+    text-transform: uppercase;
+}
+h1{
+    text-align: left;
+}
+.box p{
+    color: green;
+    margin-bottom: 20px;
+
+}
+
+.box p{
+    color: green;
+    margin-bottom: 20px;
+    background: #000;
+
+}
